@@ -3,6 +3,7 @@
 
 # Custom
 .hidden/**
+.vscode/**
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
