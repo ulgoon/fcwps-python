@@ -457,7 +457,7 @@ class Galaxy(SmartPhone):
 
 ---
 
-## Override
+## Override(`open_ai`)
 
 - 부모와 자식에 같은 이름의 함수 존재시, 자식의 함수가 우선
 
