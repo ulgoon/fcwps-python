@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 
 
 app = Flask(__name__)
@@ -6,7 +6,7 @@ app = Flask(__name__)
 # serve string
 @app.route('/')
 def index():
-    return 'Flask works'
+    return render_template('index.html')
 
 # additional route with json
 @app.route('/users')
