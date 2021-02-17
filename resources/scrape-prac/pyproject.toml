@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "scrape-prac"
+version = "0.1.0"
+description = ""
+authors = ["ulgoon <ulgoon89@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.25.1"
+beautifulsoup4 = "^4.9.3"
+lxml = "^4.6.2"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
